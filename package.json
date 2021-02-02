@@ -1,0 +1,15 @@
+{
+  "name": "leka",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:mephistorine/leka.git",
+  "author": "Sam Bulatov <stylesam@yandex.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel serve src/index.html --port 8888"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

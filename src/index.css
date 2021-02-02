@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-info {
+  flex-basis: 50%;
+}
+
+.extra-info {
+  flex-basis: 50%;
+}
+
+.name-title {
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-avatar-section img {
+  border-radius: 50%;
+  width: 304px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.section-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.skill-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-list-item {
+  background-color: #ddd;
+  padding: .3rem .5rem;
+  margin: .2rem;
+  border-radius: 1rem;
+  font-size: 0.8em;
+}
+
+h2, h3, h4, h5, h6, .work-info-description {
+  margin: 0;
+}
+
+.work-section-titles {
+  margin-bottom: 0;
+}
+
+.work-info-subtitle {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.extra-info-section:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.work-section:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.profile-avatar-section {
+  min-height: 300px;
+}
